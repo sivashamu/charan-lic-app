@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Premium Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Premium Calculator</h1>
+  <label>Age: <input type="number" id="age"></label><br><br>
+  <label>Sum Assured (₹): <input type="number" id="amount"></label><br><br>
+  <button onclick="calculate()">Calculate</button>
+  <p id="result"></p>
+  <script>
+    function calculate() {
+      let age = document.getElementById("age").value;
+      let amt = document.getElementById("amount").value;
+      let premium = (amt * 0.02) + (age * 1.5);
+      document.getElementById("result").innerText = "Estimated Monthly Premium: ₹" + premium.toFixed(2);
+    }
+  </script>
+  <a href="index.html">⬅ Back to Home</a>
+</body>
+</html>
