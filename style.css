@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 40px;
+}
+h1 {
+  color: #004aad;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #004aad;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #003080;
+}
+form input, select {
+  padding: 8px;
+  margin: 5px;
+}
+button {
+  padding: 10px 15px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
